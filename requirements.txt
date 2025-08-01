@@ -1,0 +1,9 @@
+# sudo apt-get install build-essential
+# sudo apt-get install python3-dev
+weaviate-client
+Pillow>=9.0.0
+torch>=2.0.0
+transformers>=4.0.0
+streamlit
+google-generativeai
+minio
