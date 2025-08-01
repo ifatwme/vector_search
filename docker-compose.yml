@@ -1,0 +1,45 @@
+services:
+  minio:
+    image: minio/minio
+    container_name: minio
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin
+    volumes:
+      - minio-data:/data
+    command: server /data --console-address ":9001"
+  weaviate:
+    command:
+    - --host
+    - 0.0.0.0
+    - --port
+    - '8080'
+    - --scheme
+    - http
+    image: cr.weaviate.io/semitechnologies/weaviate:1.29.1
+    container_name: weaviate
+    restart: on-failure:0
+    ports:
+      - "8080:8080"
+      - "50051:50051"
+    environment:
+      QUERY_DEFAULTS_LIMIT: 25
+      AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED: 'true'
+      PERSISTENCE_DATA_PATH: '/var/lib/weaviate'
+      # ENABLE_MODULES: "multi2vec-clip"
+      # CLUSTER_HOSTNAME: 'node1'
+      # AUTOSCHEMA_ENABLED: 'false'
+      # CLIP_INFERENCE_API: http://multi2vec-clip:8080
+    volumes:
+      - weaviate_data:/var/lib/weaviate
+  # multi2vec-clip:
+  #   container_name: multi2vec-clip
+  #   image: cr.weaviate.io/semitechnologies/multi2vec-clip:sentence-transformers-clip-ViT-B-32-multilingual-v1
+  #   environment:
+  #     ENABLE_CUDA: 0
+volumes:
+  weaviate_data:
+  minio-data:
