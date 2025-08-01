@@ -1,0 +1,650 @@
+[
+    {
+        "status": 200,
+        "data": {
+            "product": {
+                "id": 11639370,
+                "title_fa": "قطار اسباب بازی کد 45",
+                "title_en": "",
+                "url": {
+                    "base": null,
+                    "uri": "/product/dkp-1595827/قطار-اسباب-بازی-کد-45"
+                },
+                "status": "out_of_stock",
+                "has_quick_view": false,
+                "data_layer": {
+                    "brand": "متفرقه",
+                    "category": "[BT,اسباب بازی]",
+                    "metric6": 26,
+                    "dimension2": 0,
+                    "dimension6": 0,
+                    "dimension7": "none",
+                    "dimension9": 4.4,
+                    "dimension11": 0,
+                    "dimension20": "out_of_stock",
+                    "item_category2": "اسباب بازی، کودک و نوزاد",
+                    "item_category3": "سرگرمی و آموزشی",
+                    "item_category4": "اسباب بازی",
+                    "item_category5": "ماشین، هواپیما و قطار"
+                },
+                "product_type": "product",
+                "digiplus": {
+                    "services": [
+                        "ارسال رایگان"
+                    ],
+                    "is_jet_eligible": false,
+                    "cash_back": 0,
+                    "is_general_location_jet_eligible": false,
+                    "fast_shipping_text": null
+                },
+                "images": {
+                    "main": {
+                        "storage_ids": [],
+                        "url": [
+                            "https://dkstatics-public.digikala.com/digikala-products/4cb7953e56a1bcce4d28c36fca4b9445b68f5e3d_1701031963.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+                        ],
+                        "thumbnail_url": null,
+                        "temporary_id": null,
+                        "webp_url": [
+                            "https://dkstatics-public.digikala.com/digikala-products/4cb7953e56a1bcce4d28c36fca4b9445b68f5e3d_1701031963.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+                        ]
+                    },
+                    "list": [
+                        {
+                            "storage_ids": [],
+                            "url": [
+                                "https://dkstatics-public.digikala.com/digikala-products/111035231.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+                            ],
+                            "thumbnail_url": null,
+                            "temporary_id": null,
+                            "webp_url": [
+                                "https://dkstatics-public.digikala.com/digikala-products/111035231.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+                            ]
+                        },
+                        {
+                            "storage_ids": [],
+                            "url": [
+                                "https://dkstatics-public.digikala.com/digikala-products/9ed6b8035a9135842d2d53a57e9c63b4bc21b7b6_1701031963.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+                            ],
+                            "thumbnail_url": null,
+                            "temporary_id": null,
+                            "webp_url": [
+                                "https://dkstatics-public.digikala.com/digikala-products/9ed6b8035a9135842d2d53a57e9c63b4bc21b7b6_1701031963.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+                            ]
+                        },
+                        {
+                            "storage_ids": [],
+                            "url": [
+                                "https://dkstatics-public.digikala.com/digikala-products/adfd3c23ac19f41dfbe0c2d2ecb59d34f22cfea5_1701031963.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+                            ],
+                            "thumbnail_url": null,
+                            "temporary_id": null,
+                            "webp_url": [
+                                "https://dkstatics-public.digikala.com/digikala-products/adfd3c23ac19f41dfbe0c2d2ecb59d34f22cfea5_1701031963.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+                            ]
+                        },
+                        {
+                            "storage_ids": [],
+                            "url": [
+                                "https://dkstatics-public.digikala.com/digikala-products/111035234.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+                            ],
+                            "thumbnail_url": null,
+                            "temporary_id": null,
+                            "webp_url": [
+                                "https://dkstatics-public.digikala.com/digikala-products/111035234.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+                            ]
+                        },
+                        {
+                            "storage_ids": [],
+                            "url": [
+                                "https://dkstatics-public.digikala.com/digikala-products/92563d7bad7dd8eccec2da50051266f3b162b323_1701031963.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+                            ],
+                            "thumbnail_url": null,
+                            "temporary_id": null,
+                            "webp_url": [
+                                "https://dkstatics-public.digikala.com/digikala-products/92563d7bad7dd8eccec2da50051266f3b162b323_1701031963.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+                            ]
+                        },
+                        {
+                            "storage_ids": [],
+                            "url": [
+                                "https://dkstatics-public.digikala.com/digikala-products/111035237.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+                            ],
+                            "thumbnail_url": null,
+                            "temporary_id": null,
+                            "webp_url": [
+                                "https://dkstatics-public.digikala.com/digikala-products/111035237.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+                            ]
+                        },
+                        {
+                            "storage_ids": [],
+                            "url": [
+                                "https://dkstatics-public.digikala.com/digikala-products/d5988169021c1f07d454bb32e4b64a17fbe953fe_1701031963.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+                            ],
+                            "thumbnail_url": null,
+                            "temporary_id": null,
+                            "webp_url": [
+                                "https://dkstatics-public.digikala.com/digikala-products/d5988169021c1f07d454bb32e4b64a17fbe953fe_1701031963.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+                            ]
+                        },
+                        {
+                            "storage_ids": [],
+                            "url": [
+                                "https://dkstatics-public.digikala.com/digikala-products/111035239.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+                            ],
+                            "thumbnail_url": null,
+                            "temporary_id": null,
+                            "webp_url": [
+                                "https://dkstatics-public.digikala.com/digikala-products/111035239.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+                            ]
+                        },
+                        {
+                            "storage_ids": [],
+                            "url": [
+                                "https://dkstatics-public.digikala.com/digikala-products/111035240.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+                            ],
+                            "thumbnail_url": null,
+                            "temporary_id": null,
+                            "webp_url": [
+                                "https://dkstatics-public.digikala.com/digikala-products/111035240.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+                            ]
+                        }
+                    ]
+                },
+                "rating": {
+                    "rate": 88,
+                    "count": 26
+                },
+                "colors": [],
+                "default_variant": [],
+                "properties": {
+                    "is_fast_shipping": false,
+                    "is_ship_by_seller": false,
+                    "free_shipping_badge": false,
+                    "is_multi_warehouse": false,
+                    "is_fake": false,
+                    "has_gift": false,
+                    "min_price_in_last_month": 0,
+                    "is_non_inventory": false,
+                    "is_ad": false,
+                    "ad": [],
+                    "is_jet_eligible": false,
+                    "is_medical_supplement": false,
+                    "has_printed_price": false
+                },
+                "badges": [],
+                "has_true_to_size": false,
+                "videos": [],
+                "category": {
+                    "id": 6152,
+                    "title_fa": "قطار",
+                    "title_en": "قطار",
+                    "code": "train",
+                    "content_description": null,
+                    "content_box": null,
+                    "return_reason_alert": "درخواست مرجوع کردن کالا در گروه قطار با دلیل \"انصراف از خرید\" تنها در صورتی قابل تایید است که کالا در شرایط اولیه باشد (در صورت پلمپ بودن، کالا نباید باز شده باشد)."
+                },
+                "brand": {
+                    "id": 719,
+                    "code": "miscellaneous",
+                    "title_fa": "متفرقه",
+                    "title_en": "Miscellaneous",
+                    "url": {
+                        "base": null,
+                        "uri": "/brand/miscellaneous/"
+                    },
+                    "visibility": true,
+                    "logo": {
+                        "storage_ids": [],
+                        "url": [
+                            "https://dkstatics-public.digikala.com/digikala-brands/d37a7e939b804659cfc1e6d88092a1b8ea8132d4_1603699076.png?x-oss-process=image/resize,m_lfit,h_120,w_120/quality,q_80"
+                        ],
+                        "thumbnail_url": null,
+                        "temporary_id": null,
+                        "webp_url": null
+                    },
+                    "is_premium": false,
+                    "is_miscellaneous": false,
+                    "is_name_similar": false
+                },
+                "review": {
+                    "attributes": [
+                        {
+                            "title": "ویژگی‌های حرکتی",
+                            "values": [
+                                "قابلیت حرکت"
+                            ]
+                        }
+                    ]
+                },
+                "pros_and_cons": {
+                    "advantages": [],
+                    "disadvantages": []
+                },
+                "suggestion": {
+                    "count": 10,
+                    "percentage": 95
+                },
+                "variants": [],
+                "questions_count": 0,
+                "comments_count": 22,
+                "breadcrumb": [
+                    {
+                        "title": "دیجی‌کالا",
+                        "url": {
+                            "base": null,
+                            "uri": "/"
+                        }
+                    },
+                    {
+                        "title": "اسباب بازی، کودک و نوزاد",
+                        "url": {
+                            "base": null,
+                            "uri": "/main/mother-and-child/"
+                        }
+                    },
+                    {
+                        "title": "سرگرمی و آموزشی",
+                        "url": {
+                            "base": null,
+                            "uri": "/search/category-entertainment-and-games-equipment/"
+                        }
+                    },
+                    {
+                        "title": "اسباب بازی",
+                        "url": {
+                            "base": null,
+                            "uri": "/search/category-toys/"
+                        }
+                    },
+                    {
+                        "title": "ماشین، هواپیما و قطار",
+                        "url": {
+                            "base": null,
+                            "uri": "/search/category-car-plane-and-ship/"
+                        }
+                    },
+                    {
+                        "title": "قطار",
+                        "url": {
+                            "base": null,
+                            "uri": "/search/category-train/"
+                        }
+                    },
+                    {
+                        "title": "قطار اسباب بازی کد 45",
+                        "url": {
+                            "base": null,
+                            "uri": "/product/dkp-1595827/%D9%82%D8%B7%D8%A7%D8%B1-%D8%A7%D8%B3%D8%A8%D8%A7%D8%A8-%D8%A8%D8%A7%D8%B2%DB%8C-%DA%A9%D8%AF-45"
+                        }
+                    }
+                ],
+                "size_guide": [],
+                "specifications": [
+                    {
+                        "title": "مشخصات",
+                        "attributes": [
+                            {
+                                "title": "جنس",
+                                "values": [
+                                    "پلاستیک  "
+                                ]
+                            },
+                            {
+                                "title": "ویژگی‌های حرکتی",
+                                "values": [
+                                    "قابلیت حرکت "
+                                ]
+                            },
+                            {
+                                "title": "ابعاد بسته‌بندی",
+                                "values": [
+                                    "18 × 15 "
+                                ]
+                            },
+                            {
+                                "title": "سایر توضیحات",
+                                "values": [
+                                    "مناسب برای کودکان بالای یک سال\r\nابعاد: 49 ×7 × 7.5 سانتی‌متر \r\nوزن: 200 گرم  "
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "expert_reviews": {
+                    "attributes": [],
+                    "description": "",
+                    "short_review": "",
+                    "admin_rates": [],
+                    "review_sections": [],
+                    "technical_properties": {
+                        "advantages": [],
+                        "disadvantages": []
+                    }
+                },
+                "meta": {
+                    "brand_category_url": {
+                        "base": null,
+                        "uri": "/search/category-train/miscellaneous/"
+                    }
+                },
+                "last_comments": [
+                    {
+                        "id": 58478410,
+                        "title": "قطار اسباب بازی ",
+                        "body": "من توی آف برای خواهرزادم خریدم و بسیار راضیم\nخیلی خوشش اومد\n",
+                        "created_at": "15 بهمن 1402",
+                        "rate": 5,
+                        "reactions": {
+                            "likes": 0,
+                            "dislikes": 0
+                        },
+                        "files": [],
+                        "recommendation_status": "recommended",
+                        "is_buyer": true,
+                        "user_name": "سجاد میش مست نهی",
+                        "is_anonymous": false,
+                        "purchased_item": [],
+                        "advantages": [],
+                        "disadvantages": []
+                    },
+                    {
+                        "id": 56707651,
+                        "title": "",
+                        "body": "خیلی خوبو محکمه",
+                        "created_at": "24 آذر 1402",
+                        "rate": 4,
+                        "reactions": {
+                            "likes": 0,
+                            "dislikes": 0
+                        },
+                        "files": [],
+                        "recommendation_status": "recommended",
+                        "is_buyer": true,
+                        "user_name": "مائده عزتی",
+                        "is_anonymous": false,
+                        "purchased_item": [],
+                        "advantages": [],
+                        "disadvantages": []
+                    },
+                    {
+                        "id": 56194149,
+                        "title": "",
+                        "body": "راضیم",
+                        "created_at": "11 آذر 1402",
+                        "rate": 3,
+                        "reactions": {
+                            "likes": 0,
+                            "dislikes": 0
+                        },
+                        "files": [],
+                        "recommendation_status": "recommended",
+                        "is_buyer": true,
+                        "user_name": "کاربر دیجی‌کالا",
+                        "is_anonymous": true,
+                        "purchased_item": [],
+                        "advantages": [],
+                        "disadvantages": []
+                    },
+                    {
+                        "id": 52804461,
+                        "title": "قطار اسباب بازی",
+                        "body": "رنگ‌اسب با عکس فرق داش و اینم قشنگه\nخوبه و برای بچه ها‌سرگرم‌کننده اس",
+                        "created_at": "28 مرداد 1402",
+                        "rate": 5,
+                        "reactions": {
+                            "likes": 0,
+                            "dislikes": 0
+                        },
+                        "files": [],
+                        "recommendation_status": "recommended",
+                        "is_buyer": true,
+                        "user_name": "کاربر دیجی‌کالا",
+                        "is_anonymous": true,
+                        "purchased_item": [],
+                        "advantages": [],
+                        "disadvantages": []
+                    }
+                ],
+                "last_questions": [],
+                "tags": [],
+                "digify_touchpoint": "",
+                "st_cmp_tacker": {
+                    "neo": "vzO0VrdA3VRF0mDa2mthqIZGLigbi1T0ZKgjCkyTWtq6U7JrQvpZIyDXJYvxoBvCgcKmXd0rKoxsSOKkAeFlxk4BPPHdU2vr4Cz7ZvscJLqV1YSEJAZQnDStz5Pwjzn5X0Pkxm7WNIMwjzb3peUSSzv9TGUYXJr4kDq0GMgUHSgqFFihJ1x90hsoV2575pBnk8ZpMLGJXgdqV5m7zYLWt6Ie",
+                    "cx": "eyJjaXBoZXJ0ZXh0IjoibllnVWFjaUphbEdyWTE1YUZTdGtVcFBWZlZmbjlTNk9zZ0FvQkdFdWIzRFgwSHUxdUxhYjJVMk1qMnFwUFcyajhpVTVIXC9QRmZBMitqcFoyckhpZ0h0bjc5T1JHSGVSS0R3UCtZM1ZPTjMxWFROckhWNXg",
+                    "dx": "2RmF0aWlQeW5XaGdkZEdvcUJlQ1NxUDlJTmZ1aHRId0xxdDB4YTlLcWpKTXlFWmM5QWZsVDRvN0g4bzIxOHZPTUNWblY4UWxHNVhNWkFGcWtXXC9LbGdyRVZ3T2cyNXcxSkljd2dXbmdrTzdzT1JzS3cxTWlUd1VrT3Era2JNXC9wWm",
+                    "data-fx": "JkTmFLRDVzT3YzOUVRNFZxNFo4ejlxeVAxcXNXTWcxeGNLWkdEb01BaCthQmhYYml4U05Ga3RYQ2hFanlmZmxzNEhIZHFGNnhWeDBiMVAwTklTQTFlZUpiRldITFVpMFcrUkh6aHJhdGpmREl1WXhhNzZTUGM5RWRYeUcyaXFDNWxtZ",
+                    "zero": "U5kY1ZQZFVSRmthV21mVHh4TXJmcVZaTXFpcXp6S3NzZkhhN1dPcHdTQlJUQmM0U1JoOGR0N3kxVzB2bEJsRDN3NlJSMWlwcyIsIml2IjoiZjcwNzYwMjlkNWQ1ZmI5YTUyMmVmZGU3OWM2NGUxOGYiLCJpdGVyYXRpb25zIjo5OTl9"
+                }
+            },
+            "data_layer": {
+                "event": "eec.productDetail",
+                "ecommerce": {
+                    "detail": {
+                        "actionField": {
+                            "list": "category-قطار"
+                        },
+                        "products": [
+                            {
+                                "brand": "متفرقه",
+                                "category": "[BT,اسباب بازی]",
+                                "metric6": 26,
+                                "dimension2": 0,
+                                "dimension6": 0,
+                                "dimension7": "none",
+                                "dimension9": 4.4,
+                                "dimension11": 0,
+                                "dimension20": "out_of_stock",
+                                "item_category2": "اسباب بازی، کودک و نوزاد",
+                                "item_category3": "سرگرمی و آموزشی",
+                                "item_category4": "اسباب بازی",
+                                "item_category5": "ماشین، هواپیما و قطار",
+                                "name": "قطار اسباب بازی کد 45",
+                                "id": 1595827,
+                                "price": null,
+                                "metric8": 0,
+                                "dimension3": "marketplace",
+                                "dimension10": null,
+                                "dimension15": 0,
+                                "metric15": 0,
+                                "metric11": 22,
+                                "metric12": 10
+                            }
+                        ]
+                    }
+                }
+            },
+            "seo": {
+                "title": "قیمت و خرید قطار اسباب بازی کد 45",
+                "description": "خرید اینترنتی قطار اسباب بازی کد 45 به همراه مقایسه، بررسی مشخصات و لیست قیمت امروز در فروشگاه اینترنتی دیجی‌کالا",
+                "twitter_card": {
+                    "title": "قطار اسباب بازی کد 45",
+                    "image": "https://dkstatics-public.digikala.com/digikala-products/4cb7953e56a1bcce4d28c36fca4b9445b68f5e3d_1701031963.jpg?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60",
+                    "price": 0,
+                    "description": "خرید اینترنتی قطار اسباب بازی کد 45 به همراه مقایسه، بررسی مشخصات و لیست قیمت امروز در فروشگاه اینترنتی دیجی‌کالا"
+                },
+                "open_graph": {
+                    "title": "قطار اسباب بازی کد 45",
+                    "url": "https://www.digikala.com/product/dkp-1595827/قطار-اسباب-بازی-کد-45",
+                    "image": "https://dkstatics-public.digikala.com/digikala-products/4cb7953e56a1bcce4d28c36fca4b9445b68f5e3d_1701031963.jpg?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60",
+                    "availability": "out of stock",
+                    "type": "product",
+                    "site": "دیجی‌کالا",
+                    "price": 0,
+                    "description": null
+                },
+                "header": {
+                    "title": "قطار اسباب بازی کد 45",
+                    "description": "خرید اینترنتی قطار اسباب بازی کد 45 به همراه مقایسه، بررسی مشخصات و لیست قیمت امروز در فروشگاه اینترنتی دیجی‌کالا",
+                    "canonical_url": "https://www.digikala.com/product/dkp-1595827/%D9%82%D8%B7%D8%A7%D8%B1-%D8%A7%D8%B3%D8%A8%D8%A7%D8%A8-%D8%A8%D8%A7%D8%B2%DB%8C-%DA%A9%D8%AF-45"
+                },
+                "markup_schema": [
+                    {
+                        "@type": "Product",
+                        "@context": "https://www.schema.org",
+                        "name": "قطار اسباب بازی کد 45",
+                        "alternateName": null,
+                        "images": [
+                            "https://dkstatics-public.digikala.com/digikala-products/111035231.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+                            "https://dkstatics-public.digikala.com/digikala-products/9ed6b8035a9135842d2d53a57e9c63b4bc21b7b6_1701031963.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+                            "https://dkstatics-public.digikala.com/digikala-products/adfd3c23ac19f41dfbe0c2d2ecb59d34f22cfea5_1701031963.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+                            "https://dkstatics-public.digikala.com/digikala-products/111035234.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+                            "https://dkstatics-public.digikala.com/digikala-products/92563d7bad7dd8eccec2da50051266f3b162b323_1701031963.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+                            "https://dkstatics-public.digikala.com/digikala-products/111035237.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+                            "https://dkstatics-public.digikala.com/digikala-products/d5988169021c1f07d454bb32e4b64a17fbe953fe_1701031963.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+                            "https://dkstatics-public.digikala.com/digikala-products/111035239.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+                            "https://dkstatics-public.digikala.com/digikala-products/111035240.jpg?x-oss-process=image/resize,h_1600/quality,q_80"
+                        ],
+                        "description": "خرید اینترنتی قطار اسباب بازی کد 45 به همراه مقایسه، بررسی مشخصات و لیست قیمت امروز در فروشگاه اینترنتی دیجی‌کالا",
+                        "mpn": 1595827,
+                        "sku": 1595827,
+                        "category": "https://www.digikala.com/search/category-train/",
+                        "brand": {
+                            "@type": "Brand",
+                            "name": "متفرقه",
+                            "url": "https://www.digikala.com/brand/miscellaneous/",
+                            "@id": "https://www.digikala.com/brand/miscellaneous/#brand"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": 4.4,
+                            "reviewCount": 26
+                        },
+                        "offers": {
+                            "@type": "Offer",
+                            "priceCurrency": "IRR",
+                            "price": 0,
+                            "itemCondition": "https://schema.org/NewCondition",
+                            "availability": "https://schema.org/OutOfStock"
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "bestRating": 5,
+                                "ratingValue": 5
+                            },
+                            "author": {
+                                "@type": "Person",
+                                "name": "سجاد میش مست نهی"
+                            },
+                            "datePublished": "2024-02-04",
+                            "reviewBody": "من توی آف برای خواهرزادم خریدم و بسیار راضیم\nخیلی خوشش اومد\n",
+                            "name": "قطار اسباب بازی "
+                        }
+                    },
+                    [
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "فروشگاه اینترنتی دیجی‌کالا",
+                                    "item": {
+                                        "@type": "Corporation",
+                                        "@id": "https://www.digikala.com/#corporation"
+                                    }
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "اسباب بازی، کودک و نوزاد",
+                                    "item": "https://www.digikala.com/main/mother-and-child/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "سرگرمی و آموزشی",
+                                    "item": "https://www.digikala.com/search/category-entertainment-and-games-equipment/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "اسباب بازی",
+                                    "item": "https://www.digikala.com/search/category-toys/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 5,
+                                    "name": "ماشین، هواپیما و قطار",
+                                    "item": "https://www.digikala.com/search/category-car-plane-and-ship/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 6,
+                                    "name": "قطار",
+                                    "item": "https://www.digikala.com/search/category-train/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 7,
+                                    "name": "قطار اسباب بازی کد 45"
+                                }
+                            ]
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "متفرقه",
+                                    "item": {
+                                        "@type": "Brand",
+                                        "@id": "https://www.digikala.com/brand/miscellaneous/#brand"
+                                    }
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "قطار متفرقه",
+                                    "item": "https://www.digikala.com/search/category-train/miscellaneous/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "قطار اسباب بازی کد 45"
+                                }
+                            ]
+                        }
+                    ]
+                ]
+            },
+            "intrack": {
+                "eventName": "product_detail_pageview",
+                "eventData": {
+                    "currency": "IRR",
+                    "deviceType": "desktop",
+                    "name": "قطار اسباب بازی کد 45",
+                    "productId": 1595827,
+                    "productImageUrl": [
+                        "https://dkstatics-public.digikala.com/digikala-products/4cb7953e56a1bcce4d28c36fca4b9445b68f5e3d_1701031963.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+                    ],
+                    "quantity": null,
+                    "leafCategory": "قطار",
+                    "unitPrice": null,
+                    "url": "/product/dkp-1595827/قطار-اسباب-بازی-کد-45",
+                    "supplyCategory": "BT",
+                    "categoryLevel1": "اسباب بازی، کودک و نوزاد",
+                    "categoryLevel2": "سرگرمی و آموزشی",
+                    "categoryLevel3": "اسباب بازی",
+                    "categoryLevel4": "ماشین، هواپیما و قطار",
+                    "categoryLevel5": "قطار"
+                },
+                "userId": null
+            },
+            "landing_touchpoint": [],
+            "dynamic_touch_points": [],
+            "promotion_banner": null,
+            "bigdata_tracker_data": {
+                "page_name": "product",
+                "page_info": {
+                    "product_id": 1595827
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,1011 @@
+[
+    {
+        "status": 200,
+        "data": {
+            "product": {
+                "id": 7610073,
+                "title_fa": "قاب پلاک خودرو تی ماتریکس مدل Gold",
+                "title_en": "",
+                "url": {
+                    "base": null,
+                    "uri": "/product/dkp-7610073/قاب-پلاک-خودرو-تی-ماتریکس-مدل-gold"
+                },
+                "status": "marketable",
+                "has_quick_view": false,
+                "data_layer": {
+                    "brand": "متفرقه",
+                    "category": "[TC,لوازم جانبی خودرو و موتورسیکلت]",
+                    "metric6": 124,
+                    "dimension2": 0,
+                    "dimension6": 0,
+                    "dimension7": "none",
+                    "dimension9": 4.1,
+                    "dimension11": 0,
+                    "dimension20": "marketable",
+                    "item_category2": "خودرو و موتورسیکلت",
+                    "item_category3": "لوازم جانبی خودرو",
+                    "item_category4": "سایر لوازم خودرو",
+                    "item_category5": ""
+                },
+                "product_type": "product",
+                "digiplus": {
+                    "services": [
+                        "ارسال رایگان",
+                        "ارسال فوری برای شهر تهران (رایگان)"
+                    ],
+                    "is_jet_eligible": true,
+                    "cash_back": 0,
+                    "is_general_location_jet_eligible": false,
+                    "fast_shipping_text": "ارسال فردا"
+                },
+                "images": {
+                    "main": {
+                        "storage_ids": [],
+                        "url": [
+                            "https://dkstatics-public.digikala.com/digikala-products/86688d26f5431f7919b43ea582efda49931ae27e_1642667133.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+                        ],
+                        "thumbnail_url": null,
+                        "temporary_id": null,
+                        "webp_url": [
+                            "https://dkstatics-public.digikala.com/digikala-products/86688d26f5431f7919b43ea582efda49931ae27e_1642667133.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+                        ]
+                    },
+                    "list": [
+                        {
+                            "storage_ids": [],
+                            "url": [
+                                "https://dkstatics-public.digikala.com/digikala-products/c83d040212809c0322c8cb26422d646edd38b36d_1642667142.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+                            ],
+                            "thumbnail_url": null,
+                            "temporary_id": null,
+                            "webp_url": [
+                                "https://dkstatics-public.digikala.com/digikala-products/c83d040212809c0322c8cb26422d646edd38b36d_1642667142.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+                            ]
+                        }
+                    ]
+                },
+                "rating": {
+                    "rate": 82,
+                    "count": 124
+                },
+                "colors": [],
+                "default_variant": {
+                    "id": 26386504,
+                    "lead_time": 0,
+                    "rank": 99.87,
+                    "rate": 86.6,
+                    "statistics": {
+                        "totally_satisfied": {
+                            "rate_count": 25,
+                            "rate": 54.35
+                        },
+                        "satisfied": {
+                            "rate_count": 14,
+                            "rate": 30.43
+                        },
+                        "neutral": {
+                            "rate_count": 4,
+                            "rate": 8.7
+                        },
+                        "dissatisfied": {
+                            "rate_count": 3,
+                            "rate": 6.52
+                        },
+                        "totally_dissatisfied": {
+                            "rate_count": 0,
+                            "rate": 0
+                        },
+                        "total_count": 46,
+                        "total_rate": 86.6
+                    },
+                    "status": "marketable",
+                    "properties": {
+                        "is_fast_shipping": false,
+                        "is_ship_by_seller": false,
+                        "is_multi_warehouse": false,
+                        "has_similar_variants": false,
+                        "is_rural": false,
+                        "in_digikala_warehouse": true
+                    },
+                    "digiplus": {
+                        "services": [
+                            "ارسال رایگان",
+                            "ارسال فوری برای شهر تهران (رایگان)"
+                        ],
+                        "is_jet_eligible": true,
+                        "cash_back": 0,
+                        "is_general_location_jet_eligible": false,
+                        "fast_shipping_text": "ارسال فردا"
+                    },
+                    "warranty": {
+                        "id": 272,
+                        "title_fa": "گارانتی اصالت و سلامت فیزیکی کالا",
+                        "title_en": "گارانتی اصالت و سلامت فیزیکی کالا"
+                    },
+                    "seller": {
+                        "id": 146134,
+                        "title": "تی ماتریکس",
+                        "code": "AGG6E",
+                        "url": "https://www.digikala.com/seller/AGG6E/",
+                        "rating": {
+                            "total_rate": 81,
+                            "total_count": 4449,
+                            "commitment": 99.5,
+                            "no_return": 99.5,
+                            "on_time_shipping": 95.9
+                        },
+                        "properties": {
+                            "is_trusted": true,
+                            "is_official": false,
+                            "is_roosta": false,
+                            "is_new": false
+                        },
+                        "stars": 4.1,
+                        "grade": {
+                            "label": "عالی",
+                            "color": "#00a049"
+                        },
+                        "logo": null,
+                        "registration_date": "4 سال و 8 ماه"
+                    },
+                    "digiclub": {
+                        "point": 4
+                    },
+                    "buy_box_lead_time": 0,
+                    "price": {
+                        "selling_price": 338000,
+                        "rrp_price": 338000,
+                        "order_limit": 1,
+                        "is_incredible": false,
+                        "is_promotion": false,
+                        "is_locked_for_digiplus": false,
+                        "bnpl_active": true,
+                        "marketable_stock": 1,
+                        "discount_percent": 0,
+                        "is_plus_early_access": false
+                    },
+                    "shipment_methods": {
+                        "description": "موجود در انبار دیجی‌کالا",
+                        "has_lead_time": true,
+                        "providers": [
+                            {
+                                "title": "ارسال دیجی‌کالا",
+                                "description": "این کالا در انبار دیجی‌کالا موجود و آماده پردازش است و توسط پیک دیجی‌کالا در بازه انتخابی ارسال خواهد شد.",
+                                "has_lead_time": false,
+                                "type": "digikala"
+                            },
+                            {
+                                "title": "ارسال امروز (فعلا در شهر تهران و کرج)",
+                                "description": "اگر سفارش را قبل از ساعت ۶ عصر ثبت کنید، همان روز ارسال می‌شود. در صورت ثبت سفارش بعد از ساعت ۶ عصر، فردا ارسال خواهد شد.",
+                                "has_lead_time": false,
+                                "type": "jet"
+                            }
+                        ]
+                    },
+                    "has_importer_price": false,
+                    "manufacture_price_not_exist": false,
+                    "has_best_price_in_last_month": false,
+                    "buy_box_notices": []
+                },
+                "properties": {
+                    "is_fast_shipping": false,
+                    "is_ship_by_seller": false,
+                    "free_shipping_badge": false,
+                    "is_multi_warehouse": false,
+                    "is_fake": false,
+                    "has_gift": false,
+                    "min_price_in_last_month": 0,
+                    "is_non_inventory": false,
+                    "is_ad": false,
+                    "ad": [],
+                    "is_jet_eligible": false,
+                    "is_medical_supplement": false,
+                    "has_printed_price": false
+                },
+                "badges": [],
+                "has_true_to_size": false,
+                "videos": [],
+                "category": {
+                    "id": 5857,
+                    "title_fa": "سایر لوازم خودرو",
+                    "title_en": "سایر لوازم خودرو",
+                    "code": "in-car-accessories",
+                    "content_description": null,
+                    "content_box": null,
+                    "return_reason_alert": "درخواست مرجوع کردن کالا در گروه سایر لوازم خودرو با دلیل \"انصراف از خرید\" تنها در صورتی قابل تایید است که کالا در شرایط اولیه باشد (در صورت پلمپ بودن، کالا نباید باز شده باشد)."
+                },
+                "brand": {
+                    "id": 719,
+                    "code": "miscellaneous",
+                    "title_fa": "متفرقه",
+                    "title_en": "Miscellaneous",
+                    "url": {
+                        "base": null,
+                        "uri": "/brand/miscellaneous/"
+                    },
+                    "visibility": true,
+                    "logo": {
+                        "storage_ids": [],
+                        "url": [
+                            "https://dkstatics-public.digikala.com/digikala-brands/d37a7e939b804659cfc1e6d88092a1b8ea8132d4_1603699076.png?x-oss-process=image/resize,m_lfit,h_120,w_120/quality,q_80"
+                        ],
+                        "thumbnail_url": null,
+                        "temporary_id": null,
+                        "webp_url": null
+                    },
+                    "is_premium": false,
+                    "is_miscellaneous": false,
+                    "is_name_similar": false
+                },
+                "review": {
+                    "attributes": [
+                        {
+                            "title": "مناسب برای خودرو",
+                            "values": [
+                                "تمام خودروها"
+                            ]
+                        }
+                    ]
+                },
+                "pros_and_cons": {
+                    "advantages": [],
+                    "disadvantages": []
+                },
+                "suggestion": {
+                    "count": 60,
+                    "percentage": 83
+                },
+                "variants": [
+                    {
+                        "id": 26386504,
+                        "lead_time": 0,
+                        "rank": 99.87,
+                        "rate": 86.6,
+                        "statistics": {
+                            "totally_satisfied": {
+                                "rate_count": 25,
+                                "rate": 54.35
+                            },
+                            "satisfied": {
+                                "rate_count": 14,
+                                "rate": 30.43
+                            },
+                            "neutral": {
+                                "rate_count": 4,
+                                "rate": 8.7
+                            },
+                            "dissatisfied": {
+                                "rate_count": 3,
+                                "rate": 6.52
+                            },
+                            "totally_dissatisfied": {
+                                "rate_count": 0,
+                                "rate": 0
+                            },
+                            "total_count": 46,
+                            "total_rate": 86.6
+                        },
+                        "status": "marketable",
+                        "properties": {
+                            "is_fast_shipping": false,
+                            "is_ship_by_seller": false,
+                            "is_multi_warehouse": false,
+                            "has_similar_variants": false,
+                            "is_rural": false,
+                            "in_digikala_warehouse": true
+                        },
+                        "digiplus": {
+                            "services": [
+                                "ارسال رایگان",
+                                "ارسال فوری برای شهر تهران (رایگان)"
+                            ],
+                            "is_jet_eligible": true,
+                            "cash_back": 0,
+                            "is_general_location_jet_eligible": false,
+                            "fast_shipping_text": "ارسال فردا"
+                        },
+                        "warranty": {
+                            "id": 272,
+                            "title_fa": "گارانتی اصالت و سلامت فیزیکی کالا",
+                            "title_en": "گارانتی اصالت و سلامت فیزیکی کالا"
+                        },
+                        "seller": {
+                            "id": 146134,
+                            "title": "تی ماتریکس",
+                            "code": "AGG6E",
+                            "url": "https://www.digikala.com/seller/AGG6E/",
+                            "rating": {
+                                "total_rate": 81,
+                                "total_count": 4449,
+                                "commitment": 99.5,
+                                "no_return": 99.5,
+                                "on_time_shipping": 95.9
+                            },
+                            "properties": {
+                                "is_trusted": true,
+                                "is_official": false,
+                                "is_roosta": false,
+                                "is_new": false
+                            },
+                            "stars": 4.1,
+                            "grade": {
+                                "label": "عالی",
+                                "color": "#00a049"
+                            },
+                            "logo": null,
+                            "registration_date": "4 سال و 8 ماه"
+                        },
+                        "digiclub": {
+                            "point": 4
+                        },
+                        "buy_box_lead_time": 0,
+                        "price": {
+                            "selling_price": 338000,
+                            "rrp_price": 338000,
+                            "order_limit": 1,
+                            "is_incredible": false,
+                            "is_promotion": false,
+                            "is_locked_for_digiplus": false,
+                            "bnpl_active": true,
+                            "marketable_stock": 1,
+                            "discount_percent": 0,
+                            "is_plus_early_access": false
+                        },
+                        "shipment_methods": {
+                            "description": "موجود در انبار دیجی‌کالا",
+                            "has_lead_time": true,
+                            "providers": [
+                                {
+                                    "title": "ارسال دیجی‌کالا",
+                                    "description": "این کالا در انبار دیجی‌کالا موجود و آماده پردازش است و توسط پیک دیجی‌کالا در بازه انتخابی ارسال خواهد شد.",
+                                    "has_lead_time": false,
+                                    "type": "digikala"
+                                },
+                                {
+                                    "title": "ارسال امروز (فعلا در شهر تهران و کرج)",
+                                    "description": "اگر سفارش را قبل از ساعت ۶ عصر ثبت کنید، همان روز ارسال می‌شود. در صورت ثبت سفارش بعد از ساعت ۶ عصر، فردا ارسال خواهد شد.",
+                                    "has_lead_time": false,
+                                    "type": "jet"
+                                }
+                            ]
+                        },
+                        "has_importer_price": false,
+                        "manufacture_price_not_exist": false,
+                        "has_best_price_in_last_month": false,
+                        "buy_box_notices": []
+                    },
+                    {
+                        "id": 30430816,
+                        "lead_time": 2,
+                        "rank": 85.98,
+                        "rate": 76,
+                        "statistics": {
+                            "totally_satisfied": {
+                                "rate_count": 2,
+                                "rate": 20
+                            },
+                            "satisfied": {
+                                "rate_count": 6,
+                                "rate": 60
+                            },
+                            "neutral": {
+                                "rate_count": 1,
+                                "rate": 10
+                            },
+                            "dissatisfied": {
+                                "rate_count": 0,
+                                "rate": 0
+                            },
+                            "totally_dissatisfied": {
+                                "rate_count": 1,
+                                "rate": 10
+                            },
+                            "total_count": 10,
+                            "total_rate": 76
+                        },
+                        "status": "marketable",
+                        "properties": {
+                            "is_fast_shipping": false,
+                            "is_ship_by_seller": false,
+                            "is_multi_warehouse": false,
+                            "has_similar_variants": false,
+                            "is_rural": false,
+                            "in_digikala_warehouse": false
+                        },
+                        "digiplus": {
+                            "services": [
+                                "ارسال رایگان"
+                            ],
+                            "is_jet_eligible": false,
+                            "cash_back": 0,
+                            "is_general_location_jet_eligible": false,
+                            "fast_shipping_text": null
+                        },
+                        "warranty": {
+                            "id": 272,
+                            "title_fa": "گارانتی اصالت و سلامت فیزیکی کالا",
+                            "title_en": "گارانتی اصالت و سلامت فیزیکی کالا"
+                        },
+                        "seller": {
+                            "id": 1910,
+                            "title": "میسینو",
+                            "code": "5A7GU",
+                            "url": "https://www.digikala.com/seller/5A7GU/",
+                            "rating": {
+                                "total_rate": 80,
+                                "total_count": 18743,
+                                "commitment": 99.9,
+                                "no_return": 99.5,
+                                "on_time_shipping": 99.6
+                            },
+                            "properties": {
+                                "is_trusted": true,
+                                "is_official": false,
+                                "is_roosta": false,
+                                "is_new": false
+                            },
+                            "stars": 4.6,
+                            "grade": {
+                                "label": "عالی",
+                                "color": "#00a049"
+                            },
+                            "logo": null,
+                            "registration_date": "6 سال و 2 ماه"
+                        },
+                        "digiclub": {
+                            "point": 4
+                        },
+                        "buy_box_lead_time": 2,
+                        "price": {
+                            "selling_price": 370000,
+                            "rrp_price": 370000,
+                            "order_limit": 2,
+                            "is_incredible": false,
+                            "is_promotion": false,
+                            "is_locked_for_digiplus": false,
+                            "bnpl_active": true,
+                            "marketable_stock": 2,
+                            "discount_percent": 0,
+                            "is_plus_early_access": false
+                        },
+                        "shipment_methods": {
+                            "description": "موجود در انبار فروشنده",
+                            "has_lead_time": false,
+                            "providers": [
+                                {
+                                    "title": "ارسال دیجی‌کالا از 2 روز کاری دیگر",
+                                    "description": "این کالا پس از مدت زمان مشخص شده توسط فروشنده در انبار دیجی‌کالا تامین و آماده پردازش می‌گردد و توسط پیک دیجی‌کالا در بازه انتخابی ارسال خواهد شد.",
+                                    "has_lead_time": true,
+                                    "type": "digikala"
+                                }
+                            ]
+                        },
+                        "has_importer_price": false,
+                        "manufacture_price_not_exist": false,
+                        "has_best_price_in_last_month": false,
+                        "buy_box_notices": []
+                    },
+                    {
+                        "id": 42201366,
+                        "lead_time": 0,
+                        "rank": 99.45,
+                        "rate": 71.2,
+                        "statistics": {
+                            "totally_satisfied": {
+                                "rate_count": 4,
+                                "rate": 44.44
+                            },
+                            "satisfied": {
+                                "rate_count": 0,
+                                "rate": 0
+                            },
+                            "neutral": {
+                                "rate_count": 3,
+                                "rate": 33.33
+                            },
+                            "dissatisfied": {
+                                "rate_count": 1,
+                                "rate": 11.11
+                            },
+                            "totally_dissatisfied": {
+                                "rate_count": 1,
+                                "rate": 11.11
+                            },
+                            "total_count": 9,
+                            "total_rate": 71.2
+                        },
+                        "status": "marketable",
+                        "properties": {
+                            "is_fast_shipping": false,
+                            "is_ship_by_seller": false,
+                            "is_multi_warehouse": false,
+                            "has_similar_variants": false,
+                            "is_rural": false,
+                            "in_digikala_warehouse": true
+                        },
+                        "digiplus": {
+                            "services": [
+                                "ارسال رایگان",
+                                "ارسال فوری برای شهر تهران (رایگان)"
+                            ],
+                            "is_jet_eligible": true,
+                            "cash_back": 0,
+                            "is_general_location_jet_eligible": false,
+                            "fast_shipping_text": "ارسال فردا"
+                        },
+                        "warranty": {
+                            "id": 272,
+                            "title_fa": "گارانتی اصالت و سلامت فیزیکی کالا",
+                            "title_en": "گارانتی اصالت و سلامت فیزیکی کالا"
+                        },
+                        "seller": {
+                            "id": 665323,
+                            "title": "اسپرت کرج",
+                            "code": "DATRN",
+                            "url": "https://www.digikala.com/seller/DATRN/",
+                            "rating": {
+                                "total_rate": 79,
+                                "total_count": 410,
+                                "commitment": 99.6,
+                                "no_return": 99.6,
+                                "on_time_shipping": 98.8
+                            },
+                            "properties": {
+                                "is_trusted": true,
+                                "is_official": false,
+                                "is_roosta": false,
+                                "is_new": false
+                            },
+                            "stars": 4.6,
+                            "grade": {
+                                "label": "عالی",
+                                "color": "#00a049"
+                            },
+                            "logo": null,
+                            "registration_date": "2 سال و 9 ماه"
+                        },
+                        "digiclub": {
+                            "point": 4
+                        },
+                        "buy_box_lead_time": 0,
+                        "price": {
+                            "selling_price": 339000,
+                            "rrp_price": 339000,
+                            "order_limit": 2,
+                            "is_incredible": false,
+                            "is_promotion": false,
+                            "is_locked_for_digiplus": false,
+                            "bnpl_active": true,
+                            "marketable_stock": 2,
+                            "discount_percent": 0,
+                            "is_plus_early_access": false
+                        },
+                        "shipment_methods": {
+                            "description": "موجود در انبار دیجی‌کالا",
+                            "has_lead_time": true,
+                            "providers": [
+                                {
+                                    "title": "ارسال دیجی‌کالا",
+                                    "description": "این کالا در انبار دیجی‌کالا موجود و آماده پردازش است و توسط پیک دیجی‌کالا در بازه انتخابی ارسال خواهد شد.",
+                                    "has_lead_time": false,
+                                    "type": "digikala"
+                                },
+                                {
+                                    "title": "ارسال امروز (فعلا در شهر تهران و کرج)",
+                                    "description": "اگر سفارش را قبل از ساعت ۶ عصر ثبت کنید، همان روز ارسال می‌شود. در صورت ثبت سفارش بعد از ساعت ۶ عصر، فردا ارسال خواهد شد.",
+                                    "has_lead_time": false,
+                                    "type": "jet"
+                                }
+                            ]
+                        },
+                        "has_importer_price": false,
+                        "manufacture_price_not_exist": false,
+                        "has_best_price_in_last_month": false,
+                        "buy_box_notices": []
+                    }
+                ],
+                "questions_count": 3,
+                "comments_count": 100,
+                "breadcrumb": [
+                    {
+                        "title": "دیجی‌کالا",
+                        "url": {
+                            "base": null,
+                            "uri": "/"
+                        }
+                    },
+                    {
+                        "title": "خودرو و موتورسیکلت",
+                        "url": {
+                            "base": null,
+                            "uri": "/main/vehicles-spare-parts/"
+                        }
+                    },
+                    {
+                        "title": "لوازم جانبی خودرو",
+                        "url": {
+                            "base": null,
+                            "uri": "/search/category-car-accessory-parts/"
+                        }
+                    },
+                    {
+                        "title": "سایر لوازم خودرو",
+                        "url": {
+                            "base": null,
+                            "uri": "/search/category-in-car-accessories/"
+                        }
+                    },
+                    {
+                        "title": "قاب پلاک خودرو تی ماتریکس مدل Gold",
+                        "url": {
+                            "base": null,
+                            "uri": "/product/dkp-7610073/%D9%82%D8%A7%D8%A8-%D9%BE%D9%84%D8%A7%DA%A9-%D8%AE%D9%88%D8%AF%D8%B1%D9%88-%D8%AA%DB%8C-%D9%85%D8%A7%D8%AA%D8%B1%DB%8C%DA%A9%D8%B3-%D9%85%D8%AF%D9%84-gold"
+                        }
+                    }
+                ],
+                "size_guide": [],
+                "specifications": [
+                    {
+                        "title": "مشخصات",
+                        "attributes": [
+                            {
+                                "title": "مناسب برای خودرو",
+                                "values": [
+                                    "تمام خودروها "
+                                ]
+                            },
+                            {
+                                "title": "سایر توضیحات",
+                                "values": [
+                                    "یک عدد\r\nجهت زیبایی و مجافظت از پلاک\r\nطلایی "
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "expert_reviews": {
+                    "attributes": [],
+                    "description": "",
+                    "short_review": "",
+                    "admin_rates": [],
+                    "review_sections": [],
+                    "technical_properties": {
+                        "advantages": [],
+                        "disadvantages": []
+                    }
+                },
+                "meta": {
+                    "brand_category_url": {
+                        "base": null,
+                        "uri": "/search/category-in-car-accessories/miscellaneous/"
+                    }
+                },
+                "last_comments": [
+                    {
+                        "id": 58563824,
+                        "title": "خوب بود",
+                        "body": "خیلی خوب و با کیفیت بود",
+                        "created_at": "17 بهمن 1402",
+                        "rate": 5,
+                        "reactions": {
+                            "likes": 0,
+                            "dislikes": 0
+                        },
+                        "files": [],
+                        "recommendation_status": "recommended",
+                        "is_buyer": true,
+                        "user_name": "میلاد نصری",
+                        "is_anonymous": false,
+                        "purchased_item": [],
+                        "advantages": [],
+                        "disadvantages": []
+                    },
+                    {
+                        "id": 58296920,
+                        "title": "کیفیت پایین",
+                        "body": "متاسفانه متاسفانه هیییچ کجا اشاره ای نشده که  جفت نیست و فقط تک هست\r\n\r\nاومد مرسوله رسید متوجه شدم که اینی برامون فرستادن ۱ دونه هست در صورتی که  هیچکس تک این محصول بکارش نمیاد \r\n\r\nو یه حسی بهم دست داد که انگار اندختن بهم  و یجور توهین به اعتماد خریدار هست",
+                        "created_at": "10 بهمن 1402",
+                        "rate": 2,
+                        "reactions": {
+                            "likes": 0,
+                            "dislikes": 0
+                        },
+                        "files": [],
+                        "recommendation_status": "not_recommended",
+                        "is_buyer": true,
+                        "user_name": "محمد مرادی",
+                        "is_anonymous": false,
+                        "purchased_item": [],
+                        "advantages": [],
+                        "disadvantages": []
+                    },
+                    {
+                        "id": 57699667,
+                        "title": "عالی ",
+                        "body": "خوبه کاشکی موقع باز کردن پایه ها نمیخواست زیاد زور بزنی ",
+                        "created_at": "23 دی 1402",
+                        "rate": 4,
+                        "reactions": {
+                            "likes": 0,
+                            "dislikes": 0
+                        },
+                        "files": [],
+                        "recommendation_status": "recommended",
+                        "is_buyer": true,
+                        "user_name": "کاربر دیجی‌کالا",
+                        "is_anonymous": true,
+                        "purchased_item": [],
+                        "advantages": [
+                            "جنس خوب "
+                        ],
+                        "disadvantages": [
+                            "پایه کمی ضعیف "
+                        ]
+                    },
+                    {
+                        "id": 57427485,
+                        "title": "مناسب بود",
+                        "body": "اندازش مناسب بود ظاهرش خود بود فقط چند جا تو قسمت طلاییش رنگ پریدگی داشت",
+                        "created_at": "16 دی 1402",
+                        "rate": 3,
+                        "reactions": {
+                            "likes": 0,
+                            "dislikes": 0
+                        },
+                        "files": [],
+                        "recommendation_status": "no_idea",
+                        "is_buyer": true,
+                        "user_name": "علیرضا عیسی زاده لزرجان",
+                        "is_anonymous": false,
+                        "purchased_item": [],
+                        "advantages": [],
+                        "disadvantages": []
+                    }
+                ],
+                "last_questions": [
+                    {
+                        "id": 5180096,
+                        "status": "accepted",
+                        "text": "بنظر نمیاد به پراید قدیمی بخوره، کسی نصب کرده روی پراید قدیمی و مطمین میخوره ؟",
+                        "answer_count": 0,
+                        "sender": "رضا حیدری",
+                        "created_at": "5 تیر 1402"
+                    },
+                    {
+                        "id": 3485512,
+                        "status": "accepted",
+                        "text": "سلام با نصب این اگه پلاک پرچ نکنیم میتونیم هرموقع بخایم پلاک برداریم یا جا بزنیم؟",
+                        "answer_count": 0,
+                        "sender": "رضا جمشیدی",
+                        "created_at": "6 خرداد 1401"
+                    },
+                    {
+                        "id": 3213618,
+                        "status": "accepted",
+                        "text": "این بسته ای دوتا توش هست ",
+                        "answer_count": 1,
+                        "sender": "سپهر ترکی",
+                        "created_at": "3 فروردین 1401"
+                    }
+                ],
+                "tags": [],
+                "digify_touchpoint": "",
+                "st_cmp_tacker": {
+                    "neo": "wkRs0QXn0SRjHKxFyavFkUNFI1iOQfY1eUKGNvTygw4e36U6xiQTFkezX4Ko5ichpYXU86bgr96TpkAYu3MuY0tOcsJE4BMp5Me9eSEXNLN8lW2z7xxCKTWakekPEIQD2xwdGCbq3xVgpzstylVYezDQbC9Iw5Pbusz1sopwaFwE3m46lc6ctOFt4gZiVOlSnC7LrrtqlJ6xBQUtgZub7uAHp",
+                    "cx": "eyJjaXBoZXJ0ZXh0IjoiRmlZeVdENkdGR3Y4akNxdyt6WVNiU2krTnFzMUdJNUtXNDNrSFZGS0xNTXhPWGVkalBMOWd5cjZNU2dQYmtmYVdMdk1qdTJSM1Q2MGdcL0F0Q0pmUUdiaml3OVZcLzNXVGlCeEJqeUF1SVRGdlpRUXd2a0lsQ",
+                    "dx": "WszR1wvSUlcL3NSdEJ3Z3RRaGJxWkYrOG5kMG5WOGpTdk43b1V1Q0IxUERhbzNCZmZkbjkrTjdwQjhLTWdQM3IyZVhxc0prOGxsWXNrbVE5OHBNOVFOU2lOOEdqR3dPQW1TeFV2WGNIRlMyTXlaVVI4aW90cDBueW9LSHI4VFNITTFtN0",
+                    "data-fx": "YyeUZOMlFQXC94MStLaXBSZFVxY3hpaWM4MzVWSG5qcFwvaXJhR1NmTVlPd0Yzd0ZuTWVpdURqMlwvVTErZFgyMGM2ME1Gd1BCcG9PTkprNit0WjBwcFZIUDBkUllLck14RUM1VFo1dTc3bDhQZFJhN001NklIWnFpTVdvRllSSkFKXC9",
+                    "zero": "FUkVLakZrVHZSNytMdVNCdzBhS1BsdEpabWMwQUxxcjl2ZHQxUkZhdGJ5TnlDUVUrTmVFd1AwR0EwZUFPTEt6aHNJVGllN1pVIiwiaXYiOiI2OWRiOTk4MmIwYzQzMzhjYzcxYzRmNDFiMjVjNzA3YiIsIml0ZXJhdGlvbnMiOjk5OX0="
+                }
+            },
+            "data_layer": {
+                "event": "eec.productDetail",
+                "ecommerce": {
+                    "detail": {
+                        "actionField": {
+                            "list": "category-سایر لوازم خودرو"
+                        },
+                        "products": [
+                            {
+                                "brand": "متفرقه",
+                                "category": "[TC,لوازم جانبی خودرو و موتورسیکلت]",
+                                "metric6": 124,
+                                "dimension2": 0,
+                                "dimension6": 0,
+                                "dimension7": "none",
+                                "dimension9": 4.1,
+                                "dimension11": 0,
+                                "dimension20": "marketable",
+                                "item_category2": "خودرو و موتورسیکلت",
+                                "item_category3": "لوازم جانبی خودرو",
+                                "item_category4": "سایر لوازم خودرو",
+                                "item_category5": "",
+                                "name": "قاب پلاک خودرو تی ماتریکس مدل Gold",
+                                "id": 7610073,
+                                "price": 338000,
+                                "metric8": 1,
+                                "dimension3": "marketplace",
+                                "dimension10": 0,
+                                "dimension15": 0,
+                                "metric15": 1,
+                                "metric11": 100,
+                                "metric12": 60
+                            }
+                        ]
+                    }
+                }
+            },
+            "seo": {
+                "title": "قیمت و خرید قاب پلاک خودرو تی ماتریکس مدل Gold",
+                "description": "خرید اینترنتی قاب پلاک خودرو تی ماتریکس مدل Gold به همراه مقایسه، بررسی مشخصات و لیست قیمت امروز در فروشگاه اینترنتی دیجی‌کالا",
+                "twitter_card": {
+                    "title": "قاب پلاک خودرو تی ماتریکس مدل Gold",
+                    "image": "https://dkstatics-public.digikala.com/digikala-products/86688d26f5431f7919b43ea582efda49931ae27e_1642667133.jpg?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60",
+                    "price": 0,
+                    "description": "خرید اینترنتی قاب پلاک خودرو تی ماتریکس مدل Gold به همراه مقایسه، بررسی مشخصات و لیست قیمت امروز در فروشگاه اینترنتی دیجی‌کالا"
+                },
+                "open_graph": {
+                    "title": "قاب پلاک خودرو تی ماتریکس مدل Gold",
+                    "url": "https://www.digikala.com/product/dkp-7610073/قاب-پلاک-خودرو-تی-ماتریکس-مدل-gold",
+                    "image": "https://dkstatics-public.digikala.com/digikala-products/86688d26f5431f7919b43ea582efda49931ae27e_1642667133.jpg?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60",
+                    "availability": "in stock",
+                    "type": "product",
+                    "site": "دیجی‌کالا",
+                    "price": 0,
+                    "description": null
+                },
+                "header": {
+                    "title": "قاب پلاک خودرو تی ماتریکس مدل Gold",
+                    "description": "خرید اینترنتی قاب پلاک خودرو تی ماتریکس مدل Gold به همراه مقایسه، بررسی مشخصات و لیست قیمت امروز در فروشگاه اینترنتی دیجی‌کالا",
+                    "canonical_url": "https://www.digikala.com/product/dkp-7610073/%D9%82%D8%A7%D8%A8-%D9%BE%D9%84%D8%A7%DA%A9-%D8%AE%D9%88%D8%AF%D8%B1%D9%88-%D8%AA%DB%8C-%D9%85%D8%A7%D8%AA%D8%B1%DB%8C%DA%A9%D8%B3-%D9%85%D8%AF%D9%84-gold"
+                },
+                "markup_schema": [
+                    {
+                        "@type": "Product",
+                        "@context": "https://www.schema.org",
+                        "name": "قاب پلاک خودرو تی ماتریکس مدل Gold",
+                        "alternateName": null,
+                        "images": [
+                            "https://dkstatics-public.digikala.com/digikala-products/c83d040212809c0322c8cb26422d646edd38b36d_1642667142.jpg?x-oss-process=image/resize,h_1600/quality,q_80"
+                        ],
+                        "description": "خرید اینترنتی قاب پلاک خودرو تی ماتریکس مدل Gold به همراه مقایسه، بررسی مشخصات و لیست قیمت امروز در فروشگاه اینترنتی دیجی‌کالا",
+                        "mpn": 7610073,
+                        "sku": 7610073,
+                        "category": "https://www.digikala.com/search/category-in-car-accessories/",
+                        "brand": {
+                            "@type": "Brand",
+                            "name": "متفرقه",
+                            "url": "https://www.digikala.com/brand/miscellaneous/",
+                            "@id": "https://www.digikala.com/brand/miscellaneous/#brand"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": 4.1,
+                            "reviewCount": 124
+                        },
+                        "offers": {
+                            "@type": "Offer",
+                            "priceCurrency": "IRR",
+                            "price": 338000,
+                            "itemCondition": "https://schema.org/NewCondition",
+                            "availability": "https://schema.org/InStock"
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "bestRating": 5,
+                                "ratingValue": 5
+                            },
+                            "author": {
+                                "@type": "Person",
+                                "name": "میلاد نصری"
+                            },
+                            "datePublished": "2024-02-06",
+                            "reviewBody": "خیلی خوب و با کیفیت بود",
+                            "name": "خوب بود"
+                        }
+                    },
+                    [
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "فروشگاه اینترنتی دیجی‌کالا",
+                                    "item": {
+                                        "@type": "Corporation",
+                                        "@id": "https://www.digikala.com/#corporation"
+                                    }
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "خودرو و موتورسیکلت",
+                                    "item": "https://www.digikala.com/main/vehicles-spare-parts/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "لوازم جانبی خودرو",
+                                    "item": "https://www.digikala.com/search/category-car-accessory-parts/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "سایر لوازم خودرو",
+                                    "item": "https://www.digikala.com/search/category-in-car-accessories/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 5,
+                                    "name": "قاب پلاک خودرو تی ماتریکس مدل Gold"
+                                }
+                            ]
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "متفرقه",
+                                    "item": {
+                                        "@type": "Brand",
+                                        "@id": "https://www.digikala.com/brand/miscellaneous/#brand"
+                                    }
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "سایر لوازم خودرو متفرقه",
+                                    "item": "https://www.digikala.com/search/category-in-car-accessories/miscellaneous/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "قاب پلاک خودرو تی ماتریکس مدل Gold"
+                                }
+                            ]
+                        }
+                    ]
+                ]
+            },
+            "intrack": {
+                "eventName": "product_detail_pageview",
+                "eventData": {
+                    "currency": "IRR",
+                    "deviceType": "desktop",
+                    "name": "قاب پلاک خودرو تی ماتریکس مدل Gold",
+                    "productId": 7610073,
+                    "productImageUrl": [
+                        "https://dkstatics-public.digikala.com/digikala-products/86688d26f5431f7919b43ea582efda49931ae27e_1642667133.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+                    ],
+                    "quantity": 1,
+                    "leafCategory": "سایر لوازم خودرو",
+                    "unitPrice": 338000,
+                    "url": "/product/dkp-7610073/قاب-پلاک-خودرو-تی-ماتریکس-مدل-gold",
+                    "supplyCategory": "TC",
+                    "categoryLevel1": "خودرو و موتورسیکلت",
+                    "categoryLevel2": "لوازم جانبی خودرو",
+                    "categoryLevel3": "سایر لوازم خودرو",
+                    "categoryLevel4": "",
+                    "categoryLevel5": ""
+                },
+                "userId": null
+            },
+            "landing_touchpoint": [],
+            "dynamic_touch_points": [],
+            "promotion_banner": null,
+            "bigdata_tracker_data": {
+                "page_name": "product",
+                "page_info": {
+                    "product_id": 7610073
+                }
+            }
+        }
+    }
+]
