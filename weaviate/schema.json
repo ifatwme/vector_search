@@ -1,0 +1,28 @@
+{
+    "class": "TestProduct",
+    "description": "A record that stores only the embedding and a reference to external data. Images are referenced via MinIO paths.",
+    "vectorizer": "none",
+    "properties": [
+      {
+        "name": "title",
+        "dataType": ["text"],
+        "description": "Title of the record."
+      },
+      {
+        "name": "description",
+        "dataType": ["text"],
+        "description": "Description of the record."
+      },
+      {
+        "name": "attributes",
+        "dataType": ["text[]"],
+        "description": "List of additional attributes for the record."
+      },
+      {
+        "name": "images",
+        "dataType": ["string[]"],
+        "description": "List of image paths, e.g., URLs pointing to MinIO storage."
+      }
+    ]
+  }
+  

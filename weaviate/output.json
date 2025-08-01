@@ -1,0 +1,180 @@
+collection created: 
+ <weaviate.Collection config={
+  "name": "TestProduct",
+  "description": "A record that stores only the embedding and a reference to external data. Images are referenced via MinIO paths.",
+  "generative_config": null,
+  "inverted_index_config": {
+    "bm25": {
+      "b": 0.75,
+      "k1": 1.2
+    },
+    "cleanup_interval_seconds": 60,
+    "index_null_state": false,
+    "index_property_length": false,
+    "index_timestamps": false,
+    "stopwords": {
+      "preset": "en",
+      "additions": null,
+      "removals": null
+    }
+  },
+  "multi_tenancy_config": {
+    "enabled": false,
+    "auto_tenant_creation": false,
+    "auto_tenant_activation": false
+  },
+  "properties": [
+    {
+      "name": "title",
+      "description": null,
+      "data_type": "text",
+      "index_filterable": true,
+      "index_range_filters": false,
+      "index_searchable": true,
+      "nested_properties": null,
+      "tokenization": "word",
+      "vectorizer_config": null,
+      "vectorizer": null,
+      "vectorizer_configs": {
+        "multi2vec-clip": {
+          "skip": false,
+          "vectorize_property_name": true
+        }
+      }
+    },
+    {
+      "name": "description",
+      "description": null,
+      "data_type": "text",
+      "index_filterable": true,
+      "index_range_filters": false,
+      "index_searchable": true,
+      "nested_properties": null,
+      "tokenization": "word",
+      "vectorizer_config": null,
+      "vectorizer": null,
+      "vectorizer_configs": {
+        "multi2vec-clip": {
+          "skip": false,
+          "vectorize_property_name": true
+        }
+      }
+    },
+    {
+      "name": "attributes",
+      "description": null,
+      "data_type": "text",
+      "index_filterable": true,
+      "index_range_filters": false,
+      "index_searchable": true,
+      "nested_properties": null,
+      "tokenization": "word",
+      "vectorizer_config": null,
+      "vectorizer": null,
+      "vectorizer_configs": {
+        "multi2vec-clip": {
+          "skip": false,
+          "vectorize_property_name": true
+        }
+      }
+    },
+    {
+      "name": "image",
+      "description": null,
+      "data_type": "blob",
+      "index_filterable": true,
+      "index_range_filters": false,
+      "index_searchable": false,
+      "nested_properties": null,
+      "tokenization": null,
+      "vectorizer_config": null,
+      "vectorizer": null,
+      "vectorizer_configs": {
+        "multi2vec-clip": {
+          "skip": false,
+          "vectorize_property_name": true
+        }
+      }
+    },
+    {
+      "name": "price",
+      "description": null,
+      "data_type": "int",
+      "index_filterable": true,
+      "index_range_filters": false,
+      "index_searchable": false,
+      "nested_properties": null,
+      "tokenization": null,
+      "vectorizer_config": null,
+      "vectorizer": null,
+      "vectorizer_configs": {
+        "multi2vec-clip": {
+          "skip": false,
+          "vectorize_property_name": true
+        }
+      }
+    }
+  ],
+  "references": [],
+  "replication_config": {
+    "factor": 1,
+    "async_enabled": false,
+    "deletion_strategy": "NoAutomatedResolution"
+  },
+  "reranker_config": null,
+  "sharding_config": {
+    "virtual_per_physical": 128,
+    "desired_count": 1,
+    "actual_count": 1,
+    "desired_virtual_count": 128,
+    "actual_virtual_count": 128,
+    "key": "_id",
+    "strategy": "hash",
+    "function": "murmur3"
+  },
+  "vector_index_config": null,
+  "vector_index_type": null,
+  "vectorizer_config": null,
+  "vectorizer": null,
+  "vector_config": {
+    "vector": {
+      "vectorizer": {
+        "vectorizer": "multi2vec-clip",
+        "model": {
+          "imageFields": [
+            "image"
+          ],
+          "textFields": [
+            "title"
+          ],
+          "vectorizeClassName": true,
+          "weights": {
+            "imageFields": [
+              0.9
+            ],
+            "textFields": [
+              0.1
+            ]
+          }
+        },
+        "source_properties": null
+      },
+      "vector_index_config": {
+        "multi_vector": null,
+        "quantizer": null,
+        "cleanup_interval_seconds": 300,
+        "distance_metric": "cosine",
+        "dynamic_ef_min": 100,
+        "dynamic_ef_max": 500,
+        "dynamic_ef_factor": 8,
+        "ef": -1,
+        "ef_construction": 128,
+        "filter_strategy": "sweeping",
+        "flat_search_cutoff": 40000,
+        "max_connections": 32,
+        "skip": false,
+        "vector_cache_max_objects": 1000000000000
+      }
+    }
+  }
+}>
