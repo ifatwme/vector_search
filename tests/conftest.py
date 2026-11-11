@@ -1,0 +1,3 @@
+from vector_search.config import quiet_third_party_warnings
+
+quiet_third_party_warnings()
