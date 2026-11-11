@@ -1,45 +1,150 @@
+# Persian multimodal product search - full stack, no cloud APIs.
+#
+#   docker compose up -d                         # weaviate + llm + app  -> http://localhost:8501
+#   docker compose run --rm cli ingest --shards 0-4,143
+#   docker compose run --rm cli evaluate
+#
+# Only the app port is published (to 127.0.0.1 by default). Weaviate and the LLM
+# stay on the private network. The server override (deploy/compose.server.yml)
+# adds an HTTPS reverse proxy.
+
+name: vector-search
+
+x-hardening: &hardening
+  security_opt: ["no-new-privileges:true"]
+  cap_drop: [ALL]
+  logging:
+    driver: json-file
+    options: {max-size: "10m", max-file: "3"}
+
+x-app-env: &app-env
+  WEAVIATE_HOST: weaviate
+  WEAVIATE_GRPC_HOST: weaviate
+  WEAVIATE_HTTP_PORT: "8080"
+  WEAVIATE_GRPC_PORT: "50051"
+  WEAVIATE_COLLECTION: ${WEAVIATE_COLLECTION:-ProductV1}
+  CHAT_BACKEND: ${CHAT_BACKEND:-llm}
+  LLM_URL: http://llm:8080/v1
+  LLM_MODEL: ${LLM_MODEL_NAME:-qwen2.5-1.5b-instruct}
+  EMBEDDING_DEVICE: cpu
+  OMP_NUM_THREADS: ${TORCH_THREADS:-2}
+
 services:
-  minio:
-    image: minio/minio
-    container_name: minio
-    ports:
-      - "9000:9000"
-      - "9001:9001"
-    environment:
-      MINIO_ROOT_USER: minioadmin
-      MINIO_ROOT_PASSWORD: minioadmin
-    volumes:
-      - minio-data:/data
-    command: server /data --console-address ":9001"
   weaviate:
-    command:
-    - --host
-    - 0.0.0.0
-    - --port
-    - '8080'
-    - --scheme
-    - http
-    image: cr.weaviate.io/semitechnologies/weaviate:1.29.1
-    container_name: weaviate
-    restart: on-failure:0
-    ports:
-      - "8080:8080"
-      - "50051:50051"
+    <<: *hardening
+    image: cr.weaviate.io/semitechnologies/weaviate:1.40.5
+    command: ["--host", "0.0.0.0", "--port", "8080", "--scheme", "http"]
+    restart: unless-stopped
     environment:
-      QUERY_DEFAULTS_LIMIT: 25
-      AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED: 'true'
-      PERSISTENCE_DATA_PATH: '/var/lib/weaviate'
-      # ENABLE_MODULES: "multi2vec-clip"
-      # CLUSTER_HOSTNAME: 'node1'
-      # AUTOSCHEMA_ENABLED: 'false'
-      # CLIP_INFERENCE_API: http://multi2vec-clip:8080
+      # Anonymous access is acceptable only because the port is never published.
+      AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED: "true"
+      PERSISTENCE_DATA_PATH: /var/lib/weaviate
+      DEFAULT_VECTORIZER_MODULE: none
+      ENABLE_MODULES: ""
+      CLUSTER_HOSTNAME: node1
+      DISABLE_TELEMETRY: "true"
+      QUERY_DEFAULTS_LIMIT: "25"
+      LIMIT_RESOURCES: "true"
+      GOMEMLIMIT: 1200MiB
     volumes:
-      - weaviate_data:/var/lib/weaviate
-  # multi2vec-clip:
-  #   container_name: multi2vec-clip
-  #   image: cr.weaviate.io/semitechnologies/multi2vec-clip:sentence-transformers-clip-ViT-B-32-multilingual-v1
-  #   environment:
-  #     ENABLE_CUDA: 0
+      - weaviate-data:/var/lib/weaviate
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://127.0.0.1:8080/v1/.well-known/ready"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+    mem_limit: 1536m
+    cpus: 1.5
+    pids_limit: 512
+
+  llm:
+    <<: *hardening
+    # llama.cpp server (CPU): OpenAI-compatible /v1 API, ~1 GB RAM for a 1.5B Q4 model.
+    image: ghcr.io/ggml-org/llama.cpp:server@sha256:086942d6ac097c894d9d5bbaf8085c53af85e113fbb9d6d61b3748863c86aa5f
+    restart: unless-stopped
+    environment:
+      LLAMA_CACHE: /models
+    command:
+      - --host
+      - 0.0.0.0
+      - --port
+      - "8080"
+      - -hf
+      - ${LLM_HF_MODEL:-Qwen/Qwen2.5-1.5B-Instruct-GGUF:Q4_K_M}
+      - --alias
+      - ${LLM_MODEL_NAME:-qwen2.5-1.5b-instruct}
+      - --ctx-size
+      - "4096"
+      - --parallel
+      - "1"
+      - --threads
+      - ${LLM_THREADS:-3}
+      - --no-webui
+    volumes:
+      - llm-models:/models
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://127.0.0.1:8080/health"]
+      interval: 20s
+      timeout: 5s
+      retries: 5
+      start_period: 300s     # first start downloads the ~1 GB GGUF file
+    mem_limit: 2560m
+    cpus: 3
+    pids_limit: 256
+
+  app:
+    <<: *hardening
+    build:
+      context: .
+      dockerfile: docker/app.Dockerfile
+    image: vector-search-app:latest
+    restart: unless-stopped
+    read_only: true
+    tmpfs: ["/tmp:size=256m"]
+    environment: *app-env
+    volumes:
+      - images:/data/images:ro
+      - models:/data/models
+    ports:
+      - "${APP_BIND:-127.0.0.1}:${APP_PORT:-8501}:8501"
+    depends_on:
+      weaviate: {condition: service_healthy}
+      llm: {condition: service_started}
+    mem_limit: 3g
+    cpus: 2
+    pids_limit: 512
+
+  # One-shot jobs with the same image:  docker compose run --rm cli <command>
+  cli:
+    <<: *hardening
+    image: vector-search-app:latest
+    profiles: [tools]
+    restart: "no"
+    read_only: true
+    tmpfs: ["/tmp:size=512m"]
+    entrypoint: ["vector-search"]
+    command: ["--help"]
+    healthcheck: {disable: true}   # the image healthcheck probes Streamlit, which jobs don't run
+    environment:
+      <<: *app-env
+      OMP_NUM_THREADS: ${INGEST_THREADS:-4}
+      DOWNLOAD_WORKERS: ${DOWNLOAD_WORKERS:-8}
+      INGEST_BATCH_SIZE: ${INGEST_BATCH_SIZE:-32}
+    volumes:
+      - ./dataset:/app/dataset:ro
+      - images:/data/images
+      - models:/data/models
+      - reports:/data/reports
+    depends_on:
+      weaviate: {condition: service_healthy}
+    mem_limit: 3g
+    cpus: 4
+    pids_limit: 512
+
 volumes:
-  weaviate_data:
-  minio-data:
+  weaviate-data:
+  llm-models:
+  models:
+  images:
+  reports:

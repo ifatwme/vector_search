@@ -1,0 +1,9 @@
+# Allow-list: the build context only needs these.
+*
+!pyproject.toml
+!uv.lock
+!README.md
+!app.py
+!src/
+!docker/streamlit.toml
+**/__pycache__
