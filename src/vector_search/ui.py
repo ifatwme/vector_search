@@ -183,6 +183,8 @@ def run() -> None:
         st.caption(DISCLAIMER)
     else:
         st.caption("جستجوی برداری متنی و تصویری با CLIPfa و Weaviate · دستیار با مدل زبانی محلی")
+    if getattr(settings, "app_notice", ""):
+        st.info(settings.app_notice)
     if settings_error:
         st.error(f"پیکربندی نامعتبر است: {settings_error}")
 

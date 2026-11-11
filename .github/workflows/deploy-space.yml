@@ -1,0 +1,64 @@
+# Deploys the public demo to the Hugging Face Space ifatwme/vector-search.
+# Requires the repository secret HF_TOKEN (Hugging Face token with write access).
+# The Space then rebuilds itself from space/Dockerfile on Hugging Face's free CPU tier.
+name: Deploy demo to Hugging Face
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "src/**"
+      - "tests/**"
+      - "app.py"
+      - "pyproject.toml"
+      - "uv.lock"
+      - "space/**"
+      - "scripts/deploy_space.py"
+      - ".github/workflows/deploy-space.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: hf-space
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10
+        with:
+          version: "0.13.7"
+      - name: Install (CPU-only torch)
+        run: uv sync --frozen
+      - name: Lint
+        run: uv run ruff check .
+      - name: Unit tests (offline)
+        run: uv run pytest -q
+
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: huggingface
+      url: https://huggingface.co/spaces/ifatwme/vector-search
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          sparse-checkout: |
+            src
+            space
+            scripts
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - run: pip install "huggingface_hub==0.36.2"
+      - name: Push to the Space
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: python scripts/deploy_space.py --space ifatwme/vector-search

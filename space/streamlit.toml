@@ -1,0 +1,20 @@
+[server]
+headless = true
+address = "0.0.0.0"
+port = 7860
+maxUploadSize = 15
+# Spaces embed the app in an iframe behind their proxy; XSRF/CORS checks break uploads there.
+enableXsrfProtection = false
+enableCORS = false
+fileWatcherType = "none"
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "viewer"
+showErrorDetails = "none"
+
+[theme]
+base = "light"
+primaryColor = "#ef4056"

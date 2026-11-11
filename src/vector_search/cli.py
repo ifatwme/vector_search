@@ -95,6 +95,27 @@ def cmd_evaluate(settings: Settings, args) -> int:
     return 0
 
 
+def cmd_export(settings: Settings, args) -> int:
+    from .snapshot import export_images, export_snapshot
+    out = Path(args.out)
+    report = {'snapshot': export_snapshot(settings, out / 'snapshot.jsonl.gz')}
+    if not args.no_images:
+        report['images'] = export_images(settings.image_dir, out / 'images.tar',
+                                         max_side=args.max_side)
+    _print(report)
+    return 0
+
+
+def cmd_restore(settings: Settings, args) -> int:
+    from .snapshot import extract_images, import_snapshot
+    source = Path(args.source)
+    report = import_snapshot(settings, source / 'snapshot.jsonl.gz')
+    if (source / 'images.tar').is_file():
+        report['images'] = extract_images(source / 'images.tar', settings.image_dir)
+    _print(report)
+    return 0
+
+
 def cmd_doctor(settings: Settings, args) -> int:
     """Check every dependency the app needs and report what is wrong."""
     import requests
@@ -158,7 +179,17 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument('--eval-dir', default='dataset/eval')
     p.set_defaults(func=cmd_evaluate)
 
-    p = sub.add_parser('doctor', help='check Weaviate, Ollama and data paths')
+    p = sub.add_parser('export', help='write a portable snapshot (vectors + thumbnails)')
+    p.add_argument('--out', required=True, help='output directory')
+    p.add_argument('--max-side', type=int, default=384, help='thumbnail size in pixels')
+    p.add_argument('--no-images', action='store_true')
+    p.set_defaults(func=cmd_export)
+
+    p = sub.add_parser('restore', help='load a snapshot directory written by export')
+    p.add_argument('source', help='directory with snapshot.jsonl.gz [+ images.tar]')
+    p.set_defaults(func=cmd_restore)
+
+    p = sub.add_parser('doctor', help='check Weaviate, the LLM and data paths')
     p.set_defaults(func=cmd_doctor)
     return parser
 

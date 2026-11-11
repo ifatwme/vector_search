@@ -57,6 +57,7 @@ class Settings:
     max_image_bytes: int = 15 * 1024 * 1024
     ingest_batch_size: int = 32
     download_workers: int = 8
+    app_notice: str = ''  # optional banner, e.g. for the public demo
 
     def __post_init__(self) -> None:
         for name in ('weaviate_http_port', 'weaviate_grpc_port'):
